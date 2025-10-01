@@ -6,7 +6,7 @@ mygif = loadImage('rot.gif');
 }
 function setup() 
 {
-	createCanvas(900, 00);
+	createCanvas(900, 900);
 }
 
 function draw()
