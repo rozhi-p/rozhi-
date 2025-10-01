@@ -1,10 +1,15 @@
+let mygif;
+function preload()
+{
+mygif = loadImage('rot.gif');
+
+}
 function setup() 
 {
-	createCanvas(400, 400);
+	createCanvas(900, 00);
 }
 
 function draw()
 {
-  background(200, 600, 200);
-  image(rot.gif, 0, 0);
+image(mygif,0,0);
 }
