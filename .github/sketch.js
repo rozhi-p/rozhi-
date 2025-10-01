@@ -11,5 +11,9 @@ function setup()
 
 function draw()
 {
+	
+background(255);
+
+
 image(mygif,0,0);
 }
