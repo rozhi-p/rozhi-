@@ -25,6 +25,13 @@ let backgroundColor = [255, 255, 255];  // Current background color [red, green,
 // ==============================================
 // SETUP FUNCTION - Runs once when page loads
 // ==============================================
+
+let rotGif;
+
+function preLoad();
+{
+    rotGif =loadGif('rot.gif');
+}
 function setup() 
 {
     // Create a canvas that fills the entire screen
